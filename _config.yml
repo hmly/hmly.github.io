@@ -1,0 +1,58 @@
+
+# SEO settings
+title: Hmly
+description: "A collection of small projects."
+keywords: "Jekyll, theme, free, download, SEO, blog, web"
+url: "https://hmly.github.io"
+baseurl: ""
+# baseurl: null
+
+repo: http://github.com/nandomoreirame/simplest
+disqus_shortname: "nandothemes"
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+paginate: 8
+paginate_path: "/page/:num/"
+comments: false
+
+# source: source
+destination: _site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : Calvin Ly
+  job      : Student
+  bio      : "Enthusiast programmer who passes time writing programs and reading books"
+  email    : hmly@suffolk.edu
+  url      : https://hmly.github.io
+  github   : https://github.com/hmly
+  twitter  : http://twitter.com/nandomoreirame
+  facebook : http://facebook.com/fernando.dev
+  linkedin : http://linkedin.com/in/nandomoreirame
+
+# social settings
+og_locale: "pt_BR"
+twitter_card: "summary_large_image"
+twitter_site: "@nandomoreirame"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
