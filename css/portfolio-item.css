@@ -1,0 +1,62 @@
+/*!
+ * Start Bootstrap - Portfolio Item (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Wellfleet);
+
+body {
+    padding-top: 30px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: rgba(221,221,221, 0.3);
+    
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+h3,h4 {
+    font-family: Wellfleet,serif;
+}
+
+.ref-links {
+    font-family: Wellfleet,serif;
+}
+
+.float-list {
+    text-align: center;
+    color: blue;
+}
+
+#main-header {
+    background-color: rgba(221,221,221, 0.4);
+    height: 200px;
+    opacity: 1;
+}
+
+#main-title {
+    color: #85144b;
+    font-size: 4.5em;
+    font-family: Wellfleet,serif;
+    padding-top: 4%;
+}
+
+.social-media-li{
+    font-family: Wellfleet,serif;
+    color: #162252;
+    display: inline;
+}
+
+.scrollable-list {
+    overflow: auto;
+    height: 300px;
+}
+
+.scrollable-list small {
+    float: right;
+}
