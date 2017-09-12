@@ -9,7 +9,7 @@
 body {
     padding-top: 30px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     background-color: rgba(221,221,221, 0.3);
-    
+
 }
 
 .portfolio-item {
@@ -24,13 +24,45 @@ h3,h4 {
     font-family: Wellfleet,serif;
 }
 
+hr {
+    margin-top: 15px;
+}
+
 .ref-links {
     font-family: Wellfleet,serif;
 }
 
 .float-list {
+    padding-bottom: 15px;
     text-align: center;
     color: blue;
+}
+
+.nav2-items {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#about-info {
+    font-size: 1.2em;
+    font-family: serif;
+}
+
+#logo {
+  float: left;
+  margin-top: -2px;
+  margin-right: 10px;
+  font-size: 1.8em;
+  color: #fff;
+  text-transform: lowercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  border-right: #000;
+}
+
+#logo:hover {
+    color: white;
+    text-decoration: none;
 }
 
 #main-header {
@@ -54,7 +86,7 @@ h3,h4 {
 
 .scrollable-list {
     overflow: auto;
-    height: 310px;
+    height: 320px;
 }
 
 .scrollable-list small {
@@ -65,7 +97,7 @@ h3,h4 {
     font-size: 14px;
     font-family: Wellfleet,serif;
     display: inline-block;
-    width: 90px;
+    width: 100px;
     margin: 6px;
     padding: 8px;
     transition: all .2s ease-in-out;
